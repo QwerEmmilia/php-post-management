@@ -1,0 +1,152 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.post-container {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.post-title {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post-content {
+  color: #666;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-left: 23%;
+}
+
+.pagination-link.active {
+  background-color: #337ab7;
+  color: white;
+}
+
+
+.upload-form {
+  margin-top: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
+
+.upload-form {
+  margin-top: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+
+    .navigation-menu {
+      background-color: #f8f9fa;
+    }
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-item {
+      margin-right: 10px;
+
+      .nav-link {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
+
+.page-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 16px;
+}
+
+.upload-form {
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+
+  input[type="date"],
+  input[type="text"] {
+    margin-bottom: 10px;
+  }
+
+  button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}

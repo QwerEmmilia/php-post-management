@@ -1,0 +1,15 @@
+{
+    "name": "sinet/untitled2",
+    "autoload": {
+        "psr-4": {
+            "Sinet\\Untitled2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Illia",
+            "email": "sinetex2021@gmail.com"
+        }
+    ],
+    "require": {}
+}
